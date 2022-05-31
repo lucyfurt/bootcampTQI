@@ -2,6 +2,11 @@ body{
     background: #ccc;
 }
 
+.photo{
+    border: 1px solid #cccc;
+    border-radius: 50%;
+}
+
 #title, .subtitle, .post_title{
 color: crimson;
 
@@ -10,6 +15,8 @@ color: crimson;
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
@@ -17,4 +24,13 @@ color: crimson;
     padding: 10px;
     border: 3px solid #000;
     margin: 10px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image{
+    margin-bottom: 15px;
 }
