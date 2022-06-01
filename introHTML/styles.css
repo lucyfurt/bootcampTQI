@@ -1,6 +1,8 @@
 body{
     background: #ccc;
     font-family: Verdana;
+    width: 900px;
+    margin: auto;
 }
 
 a{
@@ -11,6 +13,7 @@ a{
 .photo{
     border: 1px solid #cccc;
     border-radius: 50%;
+    width: 30%;
 }
 
 #title, .subtitle, .post_title{
@@ -45,6 +48,7 @@ color: crimson;
 }
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contact_list{
